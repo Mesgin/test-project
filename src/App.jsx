@@ -26,7 +26,7 @@ const SearchInput = styled.input`
   border-radius: 24px;
   padding: 0 16px;
   outline: none;
-  font-size: 1rem;
+  font-size: 14px;
   &::placeholder {
     color: white;
   }
@@ -46,7 +46,7 @@ const FilterSection = styled.div`
 `;
 
 const TypeTitle = styled.p`
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: 700;
   color: #888888;
 `;
@@ -89,7 +89,7 @@ const AnimalCard = styled.div`
 `;
 
 const AnimalCardHeart = styled.div`
-  grid-column: 4/5;
+  grid-column: 4/-1;
   width: 40px;
   height: 40px;
   background: white;
