@@ -194,7 +194,7 @@ function App() {
         }
       </Container>
     </Wrapper>
-  );
+  )
 }
 
 export default App;
